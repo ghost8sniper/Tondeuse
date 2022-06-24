@@ -7,7 +7,7 @@ public class ConfigReader {
 
     private static ConfigReader configReader;
 
-    private static final String CONFIG_FILE_PATH = "/pelouse-config.txt";
+    private static final String CONFIG_FILE_PATH = "/grid-config.txt";
 
     private List<String> config;
 
