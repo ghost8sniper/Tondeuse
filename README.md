@@ -1,7 +1,33 @@
 # Mower
 
 Mower is a program for automating mower movements inside a grid
+## Structure
 
+```bash
+├───main
+│   ├───java
+│   │   └───fr
+│   │       └───mower
+│   │           │   Main.java
+│   │           │
+│   │           ├───config
+│   │           │       ConfigReader.java
+│   │           │       GridSetup.java
+│   │           │
+│   │           └───model
+│   │                   Action.java
+│   │                   Grid.java
+│   │                   Mower.java
+│   │                   Orientation.java
+│   │                   Position.java
+│   │
+│   └───resources
+│           grid-config.txt
+│
+└───test
+    └───java
+            GridTest.java
+```
 ## Configuration
 
 The file resources/grid-config.txt is your first destination for setting up the grid properties, mowers positions and there movements.
